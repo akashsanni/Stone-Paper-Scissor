@@ -12,12 +12,14 @@ function randomHands(){
 
 const randomP1 = document.querySelector('.random-p1')
 const randomP2 = document.querySelector('.random-p2')
-
+const start1 = document.querySelector('.start1')
+const start2 = document.querySelector('.start2')
 
 playBtn.addEventListener('click',function(e){
     let target = e.target
     target.innerText = 'Play Again'
-    
+    start1.style.visibility = "visible"
+    start2.style.visibility = "visible"
     let player1Hand = randomHands();
     let player2Hand = randomHands();
 

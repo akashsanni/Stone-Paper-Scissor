@@ -80,6 +80,12 @@ button:hover{
     font-weight: 700;
     color: rgb(104, 0, 0);
 }
+.start1{
+    visibility: hidden;
+}
+.start2{
+    visibility: hidden;
+}
 
 /* mediaquery */
 @media (min-width:700px){
