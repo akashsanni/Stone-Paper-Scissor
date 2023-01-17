@@ -46,25 +46,36 @@ button:hover{
 }
 .screen-container .player-1{
     flex-basis: 50%;
-    border: 1px solid white;
-    height: 40vh;
+    /* border: 1px solid white; */
+    height: 35vh;
+    
 
 }
 .screen-container .player-1 >h3{
     color: white;
     font-size: 2rem;
 }
+.random-p1{
+    font-size: 3.6rem;
+    margin-top: 1.2em;
+    color: yellow;
+}
 .screen-container .player-2{
     flex-basis: 50%;
-    border: 1px solid white;
+    height: 35vh;
+    /* border: 1px solid white; */
 
 }
 .screen-container .player-2 >h3{
     color: white;
     font-size: 2rem;
 }
+.random-p2{
+    font-size: 3.6rem;
+    margin-top: 1.2em;
+    color: yellow;
+}
 .result{
-    margin-top: 1.3em;
     font-size: 2rem;
     font-weight: 700;
     color: rgb(104, 0, 0);
@@ -72,23 +83,26 @@ button:hover{
 
 /* mediaquery */
 @media (min-width:700px){
-    
+    .heading-container > h1{
+        font-size: 4rem;
+    }
     .heading-container > button{
         width: 15%;
     }
     .screen-container .player-1{
         flex-basis: 50%;
-        border: 1px solid white;
-        height: 45vh;
+        /* border: 1px solid white; */
+        height: 40vh;
     
     }
     .screen-container .player-2{
         flex-basis: 50%;
-        border: 1px solid white;
-        height: 45vh;
+        /* border: 1px solid white; */
+        height: 40vh;
     }
     .result{
         margin-top: .1em;
         font-size: 3rem;
+        
     }
 }
