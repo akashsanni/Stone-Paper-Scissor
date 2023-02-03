@@ -10,25 +10,37 @@
 <body>
     <div class="heading-container">
         <h1>Rock Paper & Scissors</h1>
-        <button id="play-btn">Play</button>
     </div>
     <div class="screen-container">
         <div class="player-1">
-            <h3 class="start1">Player 1</h3>
+            <h3 class="start1">CPU</h3>
             <h4 class="random-p1"></h4>
-
+            
         </div>
-
+        
         <div class="player-2">
-            <h3 class="start2">Player 2</h3>
+            <h3 class="start2">YOU</h3>
+            <div class="img">
+                <img src="rock.jpg" alt="image" class="img-btns" data-id="Rock">
+                <img src="paper.jpg" alt="image" class="img-btns" data-id="Paper">
+                <img src="scissor.jpg" alt="image" class="img-btns" data-id="Scissor">
+            </div>
             <h4 class="random-p2"></h4>
-
+            
         </div>
         
     </div>
+    <!-- <div class="play-btn">
+        <button id="play-btn">Play</button>
+    </div> -->
     <div class="result">
         <h1></h1>
     </div>
+    <div class="again">
+        <h1></h1>
+        
+    </div>
+    <h2 class="score"></h2>
 
 <script src="main.js"></script>
 </body>

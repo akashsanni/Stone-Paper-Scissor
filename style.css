@@ -15,14 +15,14 @@ body{
     
 }
 .heading-container{
-    margin-top: 1em;
-    line-height: 3em;
+    margin-top: .7em;
+    line-height: 2em;
 }
 .heading-container > h1{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
-.heading-container > button{
+/* button{
     width: 50%;
     height: 10vh;
     margin: 1.5em 0em 2em 0em;
@@ -32,39 +32,56 @@ body{
     border-radius: 10px;
     box-shadow: 0 0 5px rgb(5, 95, 11);
     transition: .3s;
-    position: relative;
+    position:relative;
+
     cursor: pointer;
 }
 button:hover{
     background-color:white;
     color: green;
     box-shadow: 0 0 20px rgb(5, 95, 11);
-}
+} */
 .screen-container{
     display: flex;
-
+    margin-top: .8em;
+    flex-direction: column;
 }
 .screen-container .player-1{
-    flex-basis: 50%;
-    /* border: 1px solid white; */
-    height: 35vh;
+    /* flex-basis: 50%; */
+    border: 1px solid white;
+    height: 20vh;
+    margin-bottom: 10px;
     
-
 }
 .screen-container .player-1 >h3{
     color: white;
     font-size: 2rem;
 }
 .random-p1{
-    font-size: 3.6rem;
-    margin-top: 1.2em;
+    font-size: 2rem;
+    margin-top: .4em;
     color: yellow;
 }
 .screen-container .player-2{
-    flex-basis: 50%;
-    height: 35vh;
+    /* flex-basis: 50%; */
+    height: 50vh;
     /* border: 1px solid white; */
-
+}
+.img{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+img{
+    width: 29%;
+    height: 35vh;
+    margin: 7px;
+    padding:5px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgb(136, 51, 153);
+}
+img:hover{
+    box-shadow: 0 0 30px purple;
 }
 .screen-container .player-2 >h3{
     color: white;
@@ -72,43 +89,50 @@ button:hover{
 }
 .random-p2{
     font-size: 3.6rem;
-    margin-top: 1.2em;
+    /* margin-top: 1.2em; */
     color: yellow;
+
 }
 .result{
     font-size: 2rem;
     font-weight: 700;
     color: rgb(104, 0, 0);
 }
+.again{
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(0, 104, 36);
+}
 .start1{
-    visibility: hidden;
+    /* visibility: hidden; */
 }
 .start2{
-    visibility: hidden;
+    /* visibility: hidden; */
 }
 
 /* mediaquery */
 @media (min-width:700px){
     .heading-container > h1{
         font-size: 4rem;
+        margin-bottom: .4em ;
     }
     .heading-container > button{
         width: 15%;
     }
     .screen-container .player-1{
-        flex-basis: 50%;
+        /* flex-basis: 50%; */
         /* border: 1px solid white; */
-        height: 40vh;
+        height: 20vh;
+        
     
     }
     .screen-container .player-2{
-        flex-basis: 50%;
+        /* flex-basis: 50%; */
         /* border: 1px solid white; */
         height: 40vh;
     }
     .result{
         margin-top: .1em;
-        font-size: 3rem;
-        
+        font-size: 3rem;   
     }
 }
