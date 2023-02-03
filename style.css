@@ -50,7 +50,7 @@ button:hover{
     /* flex-basis: 50%; */
     /* border: 1px solid white; */
     height: 20vh;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     
 }
 .screen-container .player-1 >h3{
@@ -124,7 +124,8 @@ img:hover{
     .screen-container .player-1{
         /* flex-basis: 50%; */
         /* border: 1px solid white; */
-        height: 20vh;    
+        height: 20vh;  
+        /* margin-bottom: 5px;   */
     
     }
     .screen-container .player-2{
@@ -163,7 +164,12 @@ img:hover{
     .screen-container .player-2 > h3{
         color: white;
         font-size: 2rem;
-        margin-top: 20px;
-        margin-bottom: 30px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+    .screen-container .player-2{
+        /* flex-basis: 50%; */
+        height: 40vh;
+        /* border: 1px solid white; */
     }
 }
